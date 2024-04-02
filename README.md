@@ -23,11 +23,11 @@ The project is organized into the following main components:
 
 1. **Data Exploration Pt1**: In this phase, we perform an initial examination of the dataset, identify the class imbalance, analyze transaction dates and times, and count transactions per person/credit card. We also discuss potential challenges in building models, such as scalability, data sparsity, and generalization.
 
-**Feature Engineering**: We create various features to capture relevant information from the dataset. This includes time-based features (hour of day, day of week), analysis of transaction     categories and amounts, creation of binary features for high-risk categories and transaction amount outliers, calculation of distances between customer and merchant locations, and combination    of distance and transaction amount features to identify atypical patterns.
+2. **Feature Engineering**: We create various features to capture relevant information from the dataset. This includes time-based features (hour of day, day of week), analysis of transaction     categories and amounts, creation of binary features for high-risk categories and transaction amount outliers, calculation of distances between customer and merchant locations, and combination    of distance and transaction amount features to identify atypical patterns.
 
 **File: Fitting the features to Models Pt.1**
 
-2. **Initial Modeling**: We select and justify initial features, scale numeric features, and one-hot encode categorical features. We train and evaluate a KNN model, apply PCA to handle multicollinearity, and test Decision Tree, Naive Bayes (after PCA), and a Stacking Ensemble with Gradient Boosting. We discuss model performance and challenges, such as class imbalance, and identify the need for more diverse features.
+3. **Initial Modeling**: We select and justify initial features, scale numeric features, and one-hot encode categorical features. We train and evaluate a KNN model, apply PCA to handle multicollinearity, and test Decision Tree, Naive Bayes (after PCA), and a Stacking Ensemble with Gradient Boosting. We discuss model performance and challenges, such as class imbalance, and identify the need for more diverse features.
 
 **File: Data Exploration - For interesting Features Pt.2**
 
